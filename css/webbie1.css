@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(147, 147, 202);
+}
+.div1{
+    background-color: blueviolet;
+    
+    width: 400px;
+    margin-top: 25%;
+    margin-left: 25%;
+    text-align: center;
+    padding-bottom: 80px;
+
+
+}
+
+h2{ 
+    padding-top: 4px;
+    text-align: center;
+    background-color: aqua;
+    margin-top: 20px;
+}

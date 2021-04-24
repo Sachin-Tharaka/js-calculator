@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="webbie1.css">
+
+    <title>Document</title>
+</head>
+
+
+
+
+<body>
+    <div class="div1">
+        <h2 id="h2">Sample calculator</h2>
+
+        <label for="fnum">First Number:</label><br>
+        <input type="text" id="fnum" name="fnum">
+        <br><br>
+
+        <label for="Snum">Second Number:</label><br>
+        <input type="text" id="Snum" name="Snum">
+        <br><br>
+
+
+        <input type="radio" name="sign-area" id="box1" value="add" checked>
+        <label for="box1">ADD</label><br>
+        <input type="radio" name="sign-area" id="box2" value="substract" checked><b>-</b>
+        <input type="radio" name="sign-area" id="box3" value="multiplication" checked>*<b> </b>
+        <input type="radio" name="sign-area" id="box4" value="division" checked><b>/ </b>
+        <br><br>
+        <button type="button" onclick="outcome()">Calculate</button>
+        <h1 id="resultArea"></h1>
+
+
+    </div>
+
+</body>
+<script src="webbie.js"></script>
+
+</html>
